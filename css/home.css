@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+html
+{
+	/*scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+	background-color: black;*/
+}
+body
+{
+	background-color: black;
+	margin: 0%;
+	overflow-x:hidden;
+}
+.section {
+    height: 100vh;
+    width: 100vw;
+}
+.color_white
+{
+	color: white;
+}
+.fullpage
+{
+	display: flex;
+	flex-direction: column;
+}
+.slide
+{
+	flex: 1;
+}
+.yantra
+{
+	font-family: 'Yantramanav', sans-serif;
+	text-align: center;
+}
+header
+{
+	
+}
+#slide_1
+{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+}
+.image_slide
+{
+	width: 100%;
+}
+.peugeot_logo
+{
+	flex: 1;
+}
+.texte_logo
+{
+	font-family: 'Syncopate', sans-serif;
+	font-size: 48px;
+	position: fixed;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+.color_white
+{
+	color: white;
+}
+.texte_slide_1_position
+{
+	font-size: 48px;
+	position: fixed;
+	margin-top: 2%;
+	flex: 1;
+	display: flex;
+	margin-left: 70%;
+
+	
+}
+.texte_slide_1
+{
+	
+	font-size: 48px;
+	flex: 1;
+	margin-left: 10%;
+}
+#triangle_middle
+{
+	flex: 2;
+	width: 100%;
+	height: 100%;
+	display : inline-block;
+ 	border-bottom : 30vw solid black;
+ 	border-left : 50vh solid transparent;
+}
+#slide_2_2
+{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	flex-basis: 100%;
+	text-align: center;
+	width: 100%;
+	height: 50%;
+}
+#slide_2_1
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: 100%;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+#slide_2_partie_1
+{
+	
+	font-size: 36px;
+	background-color: black;
+	width: 30vw;
+	text-align: left;
+	padding-top: 10%;
+	padding-bottom: 7%;
+	
+}
+
+
+#slide_2_partie_2
+{
+	flex: 6;
+	font-size: 36px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	text-align: right;
+	justify-content: center;
+	background-color: white;
+	color: black;
+}
+#img_interieur_308
+{
+	flex: 1;
+	
+	max-width: 100%;
+	width: 100%;
+	
+}
+#slide-2
+{
+	max-width: 100%;
+	width: 100vw;
+	height: 100vh;
+}
+#slide_3
+{
+	display: flex;
+	align-items: flex-end;
+	width: 100vw;
+	height: 100vh;
+
+	
+}
+#video
+{
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	max-width: 100%;
+}
+#section-1
+{
+	width: 100vw;
+	height: 100vh;
+}
+#section-3
+{
+	width: 100vw;
+	height: 100vh;
+	
+	margin: 0%;
+}
+#img_exterieur_308
+{
+		
+	width: 100vw;
+	height: 100vh;
+	
+	
+}
+#texte_technique_2
+{
+	
+	color: white;
+	text-align: center;
+	position: absolute;
+	margin-left: 70%;
+	margin-top: 30%;
+}
